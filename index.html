@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1>Informe o conteúdo a ser ordenado:</h1>
+        <p>Você pode ordenar sequências numéricas ou alfabéticas de qualquer tamanho. <br> É importante respeitar o modelo de entrada, separando cada elemento por vírgula, bem como exemplificado abaixo.</p>
+    </header>
+
+    <section>
+        <form id="form" >
+            <label title="Para mais informações: Ctrl+Shift+I > Console"><i class="fa fa-info-circle"></i></label>
+            <input type="text" name="array" id="array" placeholder="Ex: 10,8,9,13,624,3,0,0,1,5783">
+            <button type="submit" onclick="ordenar()">ORDENAR</button>
+        </form>
+
+        <div id="resultado"></div>
+    </section>
+
+    <script src="sort.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

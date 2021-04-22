@@ -1,0 +1,159 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    line-height: 15px;
+    font-size: 18px;
+    width: 80%;
+    margin: 10px auto 35px;
+    text-align: center;
+}
+
+header p {
+    line-height: 22px;
+    color: #2b2b2b;
+    padding-bottom: 10px;
+}
+
+section form {
+    text-align: center; 
+    margin: -25px 0 15px; 
+}
+
+section form label {
+    color: #0774c6;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+section form input {
+    height: 40px;
+    width: 450px;
+    font-size: 20px;
+    padding-left: 30px;
+
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+section form button {
+    padding: 11px 25px;
+    margin-left: 10px;
+
+    background: #0774c6;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+
+    transition: all 0.3s;
+}
+
+section form button:hover {
+    background: #0786e7;
+}
+
+section .sortType {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin: 10px auto 0;
+}
+
+/*section #insertion-sort p,
+section #insertion-sort i,
+section #insertion-sort span {
+    color: red;
+}
+
+section #merge-sort p,
+section #merge-sort i,
+section #merge-sort span {
+    color: red;
+}
+
+section #bubble-sort p,
+section #bubble-sort i,
+section #bubble-sort span {
+    color: red;
+}
+
+section #counting-sort p,
+section #counting-sort i,
+section #counting-sort span {
+    color: red;
+}*/
+
+section .sortType p:first-child {
+    color: #2b2b2b;
+}
+
+section .sortType p {
+    color: rgb(14, 165, 14);
+    margin: -5px;
+}
+
+section .sortType i {
+    margin-right: 5px;
+}
+
+section #times {
+    font-size: 16px;
+}
+
+section #times #melhor {
+    color: rgb(14, 165, 14);
+}
+
+section #times #pior {
+    color: rgb(202, 10, 10);
+}
+
+section #resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 0 50px 20px;
+}
+
+section .container {
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin: 30px auto 0;
+
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+section .container p {
+    font-size: 20px;
+    color: #2b2b2b;
+}
+
+section .container p i {
+   margin-left: 10px;
+   font-size: 20px;
+}
+
+section .container h1 {
+    font-size: 30px;
+    margin-top: -10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 900px;
+    word-wrap: break-word;
+}
+
+section #saida {
+    margin-bottom: 15px;
+}
